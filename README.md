@@ -19,7 +19,7 @@ $ python MAFAttention_main.py -a MAFCV1 -e
 
 Note: MAFCV1 is for MobileNetV1+MAFC; MAFCV2 is for MobileNetV2+MAFC, and MAFCV3 is for MobileNetV3+MAFC
 
-Note: For a validation instance of MAF-based models, download the trained model of MAF-based model in ImageNet-1k: [Click here](https://drive.google.com/file/d/1BpoTBLcdAFwFVVv4dZJ5NxslqKcq5AQ8/view?usp=drive_link). And then locate the downloaded file at ./runs/
+Note: For a validation instance of MAF-based models, download the trained model of MAFCV1 in ImageNet-1k: [Click here](https://drive.google.com/file/d/1BpoTBLcdAFwFVVv4dZJ5NxslqKcq5AQ8/view?usp=drive_link). And then locate the downloaded file at ./runs/MAFCV1_
 
 **Related citations:**
 
