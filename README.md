@@ -5,7 +5,7 @@ Embedding attention modules into deep convolutional neural networks (CNNs) is cu
 <u>**An example for training MAF-based models on Places365:**</u>
 
 
-Traning and testing MAFAttention($\mathrm{MAF}_{\mathrm{C}}^{\mathrm{avg\text{_}std}}$) on ImageNet
+Traning and testing MAFAttention($\mathrm{MAF}_\mathrm{C}^{\mathrm{avg\_std}}$) on ImageNet
 Path dataset default: '../../../datasets/ImageNet'
 For tranining, run command at the default dataset path:
 	at the default dataset path:
