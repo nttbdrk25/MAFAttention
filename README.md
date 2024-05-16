@@ -1,18 +1,6 @@
 # MAFAttention
 **Abstract:**
-
-* Efficiently rescaling a large dataset by adapting statistical
-computation to the validation outcomes of a pre-trained network.
-* A unified collection of the sensitive images and those in
-their confused classes would form a challenging tiny set.
-* An application to rescaling two large datasets: ImageNet
-and Places365 to obtain their rescaled subsets.
-* Experimental results for image classification have validated
-the raised challenge of the rescaled subsets. Verifying on
-these subsets helps researchers to save time and the computational
-cost for the early network drafts.
-* It can be conducive to a good rate of a network draft on the
-large datasets if it is good on the rescaled subsets.
+Embedding attention modules into deep convolutional neural networks (CNNs) is currently one of the common deliberations to enhance their learning ability of feature representation. In previous works, the global channel-wise features of a given tensor are computed and squeezed into CNN-based models through an attention mechanism. Squeezing different kinds of these features can lead to the less fusion of attentive information due to the independent operations of channel-wise recalibration. To deal with this issue, an efficient attention module of accumulated features (MAF) is proposed by accumulating these diverse squeezes for a unitary recalibrating perceptron as follows. Firstly, we take advantage of average and deviation calculations to produce correspondingly statistical patterns of a given tensor for aggregating the global channel information. An adaptative perceptron of deformed-bottleneck recalibration (DBR) is then presented to cohere the resultant features. Finally, the robust DBR-based lightweights will be utilized to weight the concerning tensor. Additionally, to exploit more spatial-wise information, we address MAF for an effective alternative of the channel-wise component in two critical attention units to form two corresponding modules that will be then inspected to indicate which integration is good for real applications. We adapt the MAF-based modules to MobileNets for further enhancement investigation. Experiments on benchmark datasets for image classification have proved the efficacy of our proposals.
 # Rescaling explanations
 * **Names of rescaled classes of ImageNet:** ReIN<sup>30</sup> (![ReIN30.txt](Result_Rescaled_ImageNet/ReIN30.txt)), ReIN<sup>50</sup> (![ReIN50.txt](Result_Rescaled_ImageNet/ReIN50.txt)), ReIN<sup>100</sup> (![ReIN100.txt](Result_Rescaled_ImageNet/ReIN100.txt)), ReIN<sup>150</sup> (![ReIN150.txt](Result_Rescaled_ImageNet/ReIN150.txt)), and ReIN<sup>200</sup> (![ReIN200.txt](Result_Rescaled_ImageNet/ReIN200.txt)) in folder: *`Result_Rescaled_ImageNet`*
 ![List of rescaled subsets of ImageNet (pdf)](Result_Rescaled_ImageNet/Rescaled_Subsets_ImageNet.pdf)
