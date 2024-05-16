@@ -10,7 +10,9 @@ Path dataset default: '../../../datasets/ImageNet'
 
 For tranining, run command at the default dataset path:
 * at the default dataset path:
-		python MAFAttention_main.py -a MAFCV1
+```
+$ python MAFAttention_main.py -a MAFCV1
+```
 * at the default dataset path: 
 		python MAFAttention_main.py -a MAFCV1 -r ../../../datasets/ImageNet
 
