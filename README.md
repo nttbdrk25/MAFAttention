@@ -30,7 +30,7 @@ $ python MAFAttention_main.py -a MAFCV1 -r ../../../datasets/ImageNet -e
 
 Note: MAFCV1 is for MobileNetV1+MAFC; MAFCV2 is for MobileNetV2+MAFC, and MAFCV3 is for MobileNetV3+MAFC
 
-Note: For instances of validation of MAF-based model, download the trained model of CGDFNet on Places365: [Click here](https://drive.google.com/file/d/1BpoTBLcdAFwFVVv4dZJ5NxslqKcq5AQ8/view?usp=drive_link). And then locate the downloaded file at ./runs/CGDFNet_g1_/
+Note: For instances of validation of MAF-based model, download the trained model of MAF-based model in ImageNet-1k: [Click here](https://drive.google.com/file/d/1BpoTBLcdAFwFVVv4dZJ5NxslqKcq5AQ8/view?usp=drive_link). And then locate the downloaded file at ./runs/
 
 **Related citations:**
 
