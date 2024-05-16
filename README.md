@@ -6,7 +6,7 @@ Embedding attention modules into deep convolutional neural networks (CNNs) is cu
 
 
 Traning and testing MAFAttention($\mathrm{MAF}_\mathrm{C}^{\mathrm{avg\\_std}}$) on ImageNet
-Path dataset default: '../../../datasets/ImageNet'
+in the default path of dataset: '../../../datasets/ImageNet'
 
 For tranining, run command at the default dataset path:
 * at the default dataset path:
