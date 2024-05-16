@@ -4,6 +4,23 @@ Embedding attention modules into deep convolutional neural networks (CNNs) is cu
 
 <u>**An example for training MAF-based models on Places365:**</u>
 
+
+Traning and testing MAFAttention(MAFc^{avg_std}) on ImageNet
+Path dataset default: '../../../datasets/ImageNet'
+For tranining, run command at the default dataset path:
+	at the default dataset path:
+		python MAFAttention_main.py -a MAFCV1
+	at the default dataset path: 
+		python MAFAttention_main.py -a MAFCV1 -r ../../../datasets/ImageNet
+
+for validating, run command:
+	at the default dataset path:
+		python MAFAttention_main.py -a MAFCV1 -e
+	at the default dataset path:
+		python MAFAttention_main.py -a MAFCV1 -r ../../../datasets/ImageNet -e	
+
+Note: MAFCV1: for MobileNetV1+MAFC; MAFCV2: for MobileNetV2+MAFC, and MAFCV3: for MobileNetV3+MAFC
+
 ```
 $ python CGDFNet_places365.py
 ```
